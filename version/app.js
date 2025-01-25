@@ -2,7 +2,7 @@ const express = require('express');
 app = express();
 
 var response;
-//hi
+//hi bye
 app.get('/', function (req, res) {
 
     response = 'This is version 1 of the app.' + '\n';
